@@ -1,0 +1,13 @@
+DÊ UM DOCKER-COMPOSE UP -D
+FAÇA LOGIN USANDO:
+docker login
+
+VEJA O NOME DA IMAGEM QUE ELE CRIOU:
+docker images
+
+VAI APARECER O NOMEDAPASTA_WEB
+TIPO: TRABALHO_WEB
+
+USE O CODIGO:
+docker tag NOMEDAIMAGEM seu_usuario_do_docker/trabalho-do-noel:versao1
+docker push seu_usuario_do_docker/trabalho-do-noel:versao1
